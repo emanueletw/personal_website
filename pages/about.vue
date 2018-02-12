@@ -1,6 +1,6 @@
 <template>
   <section>
-      <h1 :style="`color: ${color}`"> About</h1>
+      <h1 :style="`color: ${color}`"> About todos</h1>
       <p>{{message}}</p>
       <p>lorem</p>
       <input type="text" v-model="color">
